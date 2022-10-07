@@ -1,6 +1,11 @@
+html {
+	scroll-behavior: smooth;
+}
 * {	
 	box-sizing: border-box;
 	overflow: auto;
+	margin: 0;
+	padding: 0
 }
 body {
 	background-image: url(../img/back.png);
@@ -35,6 +40,9 @@ nav {
 	background-color: green;
 	color: white;
 	padding:0;
+}
+#menulista {
+	display:none;
 }
 nav ul {
 	list-style: none;
@@ -100,6 +108,12 @@ footer a {
 	}
 	#up {
 		display: none;
+	}
+	#hambi {
+		display:none;
+	}
+	#menulista {
+		display: block;
 	}
 	nav ul li {
 	display: inline-block;

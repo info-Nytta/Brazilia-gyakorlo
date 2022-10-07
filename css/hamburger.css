@@ -1,0 +1,14 @@
+#hamburger {
+	padding:5px 15px;
+	text-align:right;
+	background-color:white;
+	color:black;
+	border-top:1px gray solid;
+	border-bottom:1px gray solid;
+	font-size:150%;
+	font-weight:bold;
+	font-variant:small-caps;
+	cursor:pointer;	
+	background-color: green;
+	color: white;
+}
